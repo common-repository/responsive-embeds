@@ -1,0 +1,23 @@
+/* make embeds responsive */
+.iframe-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px;
+    height: 0;
+    overflow: hidden;
+    margin-bottom: 30px;
+}
+ 
+.iframe-container > iframe,
+.iframe-container > object,
+.iframe-container > embed,
+.iframe-container > .wp-video,
+.iframe-container > .mejs-container,
+.iframe-container > video,
+.iframe-container > .mejs-layer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%!important;
+    height: 100%!important;
+}
